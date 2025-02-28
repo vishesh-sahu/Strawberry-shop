@@ -1,0 +1,134 @@
+*{
+    margin : 0px;
+    padding: 0;
+
+}
+body{
+   
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.05);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    font-size: 50px;
+}
+.logo span{
+    color: red;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px 20px;
+
+}
+.menu a:hover{
+    background: black;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.inf img{
+   margin: 20px;
+    max-width: 20px;
+    float: right;   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.left{
+
+    background-image: url(berry.jfif);
+    align-items: center;
+    background-size: 400%;
+   
+    size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis:70% ;
+    max-width: 400px;
+    padding-left: 40px;
+    height: 400px;
+    width: 200px;
+    
+
+}
+.right{
+    margin: 40px;
+    margin-bottom: 50px;
+    flex-basis:50% ;
+}
+label input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.right img {
+    max-width: 20px;
+}
+.line{
+
+}
+.box1{
+    width: 15px;
+    height: 15px;
+    background: red;
+    margin-top: 20px;
+}
+.box2{
+    width: 50px;
+    height: 2px;
+    background: red;
+    margin-top: 5px;
+}
+.box3{
+    width: 100px;
+    height: 2px;
+    background: red;
+    margin-top: 5px;
+}
+.fresh{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(95, 90, 83);
+}
+.straberries{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 400;
+    
+
+}
+.straberries span{
+    color: red;
+}
+.texxt{
+    margin-top: 20px;
+    color: rgb(108, 108, 86);
+
+}
+.btn button{
+   padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    size: 10px;
+   border-color:  rgb(203, 77, 77);
+    border-radius: 10%;
+    
+}
+.btn button:hover{
+    background: red;
+    color: white;
+    transition: 0.6s ease;
+}
